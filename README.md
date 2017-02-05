@@ -25,6 +25,10 @@ Webkit内核的浏览器，必须加上`-webkit`前缀:
   display: flex;
 }
 ```
+demo:
+* [flex 两栏/三栏布局](./demo/demo1.html)
+
+
 注意，设为`flex`布局以后，子元素的`float`、`clear`和`vertical-align`属性将失效
 
 ## 基本概念
