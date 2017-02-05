@@ -26,7 +26,7 @@ Webkit内核的浏览器，必须加上`-webkit`前缀:
 }
 ```
 demo:
-* [flex 两栏/三栏布局](./demo/demo1.html)
+* [所有弹性盒模型对象的子元素都有相同的长度，忽略它们内部的内容](./demo/flex.html)
 
 
 注意，设为`flex`布局以后，子元素的`float`、`clear`和`vertical-align`属性将失效
@@ -64,7 +64,7 @@ demo:
 * `column-reverse`：主轴为垂直方向，起点在下沿。
 
 demo 
-* [flex 两栏/三栏布局 反序排列](./demo/demo1-1.html)
+* [设置<div>元素内弹性盒元素的方向为相反的顺序](./demo/flex-direction.html)
 
 ### flex-wrap属性
 默认情况下，项目都排在一条线（又称"轴线"）上。`flex-wrap`属性定义，如果一条轴线排不下，如何换行。
@@ -90,7 +90,7 @@ demo
 ```
 
 demo 
-* [让弹性元素在需要时拆行](./demo/flex-wrap.html)
+* [弹性盒元素在必要时拆行](./demo/flex-wrap.html)
 
 ### justify-content属性
 `justify-content`属性定义了项目在主轴上的对齐方式
@@ -109,7 +109,7 @@ demo
 * `space-around`：每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。
 
 demo 
-* [flex 水平/垂直居中](./demo/demo2.html)
+* [在弹性盒对象的<div>元素中的各项周围留有空白](./demo/justify-content.html)
 
 ### align-items属性
 `align-items`属性定义项目在交叉轴上如何对齐。
@@ -128,7 +128,7 @@ demo
 * `stretch`（默认值）：如果项目未设置高度或设为`auto`，将占满整个容器的高度。
 
 demo 
-* [flex 水平/垂直居中](./demo/demo2.html)
+* [居中对齐弹性盒的各项<div>元素](./demo/align-items.html)
 
 ### align-content属性
 `align-content`属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。
@@ -148,7 +148,7 @@ demo
 * `stretch`（默认值）：轴线占满整个交叉轴。
 
 demo 
-* [flex 水平/垂直居中](./demo/demo2.html)
+* [对齐弹性盒的<div>元素的各项](./demo/align-content.html)
 
 ## 项目的属性
 以下6个属性设置在项目上。
@@ -169,7 +169,7 @@ demo
 ![image](imgs/11.png)
 
 demo 
-* [flex - order 排列顺序](./demo/demo3-1.html)
+* [设置弹性盒对象元素的顺序](./demo/flex order.html)
 
 ### flex-grow属性
 `flex-grow`属性定义项目的放大比例，默认为`0`，即如果存在剩余空间，也不放大。
