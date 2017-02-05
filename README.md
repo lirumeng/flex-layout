@@ -25,9 +25,6 @@ Webkit内核的浏览器，必须加上`-webkit`前缀:
   display: flex;
 }
 ```
-demo:
-* [所有弹性盒模型对象的子元素都有相同的长度，忽略它们内部的内容](./demo/flex.html)
-
 
 注意，设为`flex`布局以后，子元素的`float`、`clear`和`vertical-align`属性将失效
 
@@ -196,6 +193,10 @@ demo:
 
 如果所有项目的`flex-shrink`属性都为`1`，当空间不足时，都将等比例缩小。如果一个项目的`flex-shrink`属性为`0`，其他项目都为`1`，则空间不足时，前者不缩小。
 负值对该属性无效。
+
+demo:
+* [让第二个元素收缩到其他元素的三分之一](./demo/flex-shrink.html)
+
 ### flex-basis属性
 `flex-basis`属性定义了在分配多余空间之前，项目占据的主轴空间（`main size`）。浏览器根据这个属性，计算主轴是否有多余空间。它的默认值为`auto`，即项目的本来大小。
 ```css
@@ -204,6 +205,10 @@ demo:
 }
 ```
 它可以设为跟`width`或`height`属性一样的值（比如`350px`），则项目将占据固定空间。
+
+demo:
+* [设置第二个弹性盒元素的初始长度为80像素](./demo/flex-basis.html)
+
 ### flex属性
 `flex`属性是`flex-grow`, `flex-shrink`和`flex-basis`的简写，默认值为`0 1 auto`。后两个属性可选。
 ```css
@@ -221,6 +226,9 @@ demo:
 }
 ```
 ![image](imgs/14.png)
+
+demo:
+* [所有弹性盒模型对象的子元素都有相同的长度，忽略它们内部的内容](./demo/flex.html)
 
 该属性可能取6个值，除了`auto`，其他都与`align-items`属性完全一致。
 
