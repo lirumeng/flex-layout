@@ -62,6 +62,9 @@ demo:
 * `row-reverse`：主轴为水平方向，起点在右端。
 * `column`：主轴为垂直方向，起点在上沿。
 * `column-reverse`：主轴为垂直方向，起点在下沿。
+
+demo 
+* [flex 两栏/三栏布局 反序排列](./demo/demo1-1.html)
 ### flex-wrap属性
 默认情况下，项目都排在一条线（又称"轴线"）上。`flex-wrap`属性定义，如果一条轴线排不下，如何换行。
 ![image](imgs/4.png)
@@ -84,6 +87,10 @@ demo:
   flex-flow: <flex-direction> || <flex-wrap>;
 }
 ```
+
+demo 
+* [让弹性元素在需要时拆行](./demo/flex-wrap.html)
+
 ### justify-content属性
 `justify-content`属性定义了项目在主轴上的对齐方式
 ```css
@@ -99,6 +106,10 @@ demo:
 * `center`： 居中
 * `space-between`：两端对齐，项目之间的间隔都相等。
 * `space-around`：每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。
+
+demo 
+* [flex 水平/垂直居中](./demo/demo2.html)
+
 ### align-items属性
 `align-items`属性定义项目在交叉轴上如何对齐。
 ```css
@@ -114,6 +125,10 @@ demo:
 * `center`：交叉轴的中点对齐。
 * `baseline`: 项目的第一行文字的基线对齐。
 * `stretch`（默认值）：如果项目未设置高度或设为`auto`，将占满整个容器的高度。
+
+demo 
+* [flex 水平/垂直居中](./demo/demo2.html)
+
 ### align-content属性
 `align-content`属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。
 ```css
@@ -130,6 +145,9 @@ demo:
 * `space-between`：与交叉轴两端对齐，轴线之间的间隔平均分布。
 * `space-around`：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。
 * `stretch`（默认值）：轴线占满整个交叉轴。
+
+demo 
+* [flex 水平/垂直居中](./demo/demo2.html)
 
 ## 项目的属性
 以下6个属性设置在项目上。
@@ -149,6 +167,9 @@ demo:
 ```
 ![image](imgs/11.png)
 
+demo 
+* [flex - order 排列顺序](./demo/demo3-1.html)
+
 ### flex-grow属性
 `flex-grow`属性定义项目的放大比例，默认为`0`，即如果存在剩余空间，也不放大。
 ```css
@@ -159,6 +180,10 @@ demo:
 ![image](imgs/12.png)
 
 如果所有项目的`flex-grow`属性都为`1`，则它们将等分剩余空间（如果有的话）。如果一个项目的`flex-grow`属性为`2`，其他项目都为`1`，则前者占据的剩余空间将比其他项多一倍。
+
+demo 
+* [让第二个元素的宽度为其他元素的三倍](./demo/flex-grow.html)
+
 ### flex-shrink属性
 `flex-shrink`属性定义了项目的缩小比例，默认为`1`，即如果空间不足，该项目将缩小。
 ```css
