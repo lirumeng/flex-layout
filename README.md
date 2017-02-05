@@ -63,7 +63,7 @@ demo:
 * `column`：主轴为垂直方向，起点在上沿。
 * `column-reverse`：主轴为垂直方向，起点在下沿。
 
-demo 
+demo:
 * [设置div元素内弹性盒元素的方向为相反的顺序](./demo/flex-direction.html)
 
 ### flex-wrap属性
@@ -89,7 +89,7 @@ demo
 }
 ```
 
-demo 
+demo:
 * [弹性盒元素在必要时拆行](./demo/flex-wrap.html)
 
 ### justify-content属性
@@ -108,7 +108,7 @@ demo
 * `space-between`：两端对齐，项目之间的间隔都相等。
 * `space-around`：每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。
 
-demo 
+demo:
 * [在弹性盒对象的div元素中的各项周围留有空白](./demo/justify-content.html)
 
 ### align-items属性
@@ -127,7 +127,7 @@ demo
 * `baseline`: 项目的第一行文字的基线对齐。
 * `stretch`（默认值）：如果项目未设置高度或设为`auto`，将占满整个容器的高度。
 
-demo 
+demo:
 * [居中对齐弹性盒的各项div元素](./demo/align-items.html)
 
 ### align-content属性
@@ -147,7 +147,7 @@ demo
 * `space-around`：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。
 * `stretch`（默认值）：轴线占满整个交叉轴。
 
-demo 
+demo:
 * [对齐弹性盒的div元素的各项](./demo/align-content.html)
 
 ## 项目的属性
@@ -168,7 +168,7 @@ demo
 ```
 ![image](imgs/11.png)
 
-demo 
+demo:
 * [设置弹性盒对象元素的顺序](./demo/flex order.html)
 
 ### flex-grow属性
@@ -182,7 +182,7 @@ demo
 
 如果所有项目的`flex-grow`属性都为`1`，则它们将等分剩余空间（如果有的话）。如果一个项目的`flex-grow`属性为`2`，其他项目都为`1`，则前者占据的剩余空间将比其他项多一倍。
 
-demo 
+demo:
 * [让第二个元素的宽度为其他元素的三倍](./demo/flex-grow.html)
 
 ### flex-shrink属性
