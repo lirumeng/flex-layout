@@ -64,7 +64,7 @@ demo:
 * `column-reverse`：主轴为垂直方向，起点在下沿。
 
 demo 
-* [设置<div>元素内弹性盒元素的方向为相反的顺序](./demo/flex-direction.html)
+* [设置div元素内弹性盒元素的方向为相反的顺序](./demo/flex-direction.html)
 
 ### flex-wrap属性
 默认情况下，项目都排在一条线（又称"轴线"）上。`flex-wrap`属性定义，如果一条轴线排不下，如何换行。
@@ -109,7 +109,7 @@ demo
 * `space-around`：每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。
 
 demo 
-* [在弹性盒对象的<div>元素中的各项周围留有空白](./demo/justify-content.html)
+* [在弹性盒对象的div元素中的各项周围留有空白](./demo/justify-content.html)
 
 ### align-items属性
 `align-items`属性定义项目在交叉轴上如何对齐。
@@ -128,7 +128,7 @@ demo
 * `stretch`（默认值）：如果项目未设置高度或设为`auto`，将占满整个容器的高度。
 
 demo 
-* [居中对齐弹性盒的各项<div>元素](./demo/align-items.html)
+* [居中对齐弹性盒的各项div元素](./demo/align-items.html)
 
 ### align-content属性
 `align-content`属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。
@@ -148,7 +148,7 @@ demo
 * `stretch`（默认值）：轴线占满整个交叉轴。
 
 demo 
-* [对齐弹性盒的<div>元素的各项](./demo/align-content.html)
+* [对齐弹性盒的div元素的各项](./demo/align-content.html)
 
 ## 项目的属性
 以下6个属性设置在项目上。
